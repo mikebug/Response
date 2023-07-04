@@ -1,0 +1,37 @@
+.c-button, .c-button-secondary, .c-button-secondary_disabled, .c-button-primary, .c-button-primary_disabled {
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  justify-content: center;
+  min-height: 45px;
+  min-width: 90px;
+  mix-blend-mode: difference;
+  padding: 6px 16px;
+  text-align: center;
+  color: #000;
+}
+.c-button-primary:hover, .c-button-primary_disabled:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+}
+.c-button-primary_disabled {
+  text-decoration: line-through;
+  cursor: not-allowed;
+}
+.c-button-secondary, .c-button-secondary_disabled {
+  border: 2px solid hsla(0, 0%, 0%, 0.5);
+}
+.c-button-secondary:hover, .c-button-secondary_disabled:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.c-button-secondary_disabled {
+  text-decoration: line-through;
+  cursor: not-allowed;
+}
+
+/*# sourceMappingURL=response.css.map */

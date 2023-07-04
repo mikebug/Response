@@ -1,0 +1,16 @@
+{
+  "name": "response",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass SCSS/response.scss CSS/response.css",
+    "watch": "sass --watch SCSS/response.scss CSS/response.css"
+  },
+  "author": "Michael Buglione",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.63.6"
+  }
+}
